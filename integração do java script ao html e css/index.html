@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação de formulário com JS</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <h1>Validação de entradas</h1>
+    <form id="form-comparacao">
+        <label for="classeA">Defina A:</label>
+        <input type="number" id="classeA" required placeholder="Defina o valor de A">
+        <br>
+        <br>O valor de "A" deve ser menor que o valor de "B"<br>
+        <br>
+        <label for="classeB">Defina B:</label>
+        <input type="number" id="classeB" required placeholder="Defina o valor de B">
+        <br>
+        <button type="submit">Comparar</button>
+    </form>
+    <p id="result"></p>
+    <script src="./main.js"></script>
+</body>
+</html>
